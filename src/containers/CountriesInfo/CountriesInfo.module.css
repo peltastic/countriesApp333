@@ -35,7 +35,7 @@
 }
 @media (max-width: 700px) {
   .Content img {
-    width: 20rem;
+    width: 25rem;
     height: 20rem;
     margin-top: -2rem;
   }
@@ -62,7 +62,7 @@
 
 @media (max-width: 470px) {
   .Content .Right {
-    margin-top: -3rem;
+    margin-top: 1rem;
   }
 }
 .Content .Right .Left {
