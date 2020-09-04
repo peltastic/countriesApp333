@@ -33,7 +33,7 @@
     width: 40rem;
   }
 }
-@media (max-width: 470px) {
+@media (max-width: 700px) {
   .Content img {
     width: 20rem;
     height: 20rem;
