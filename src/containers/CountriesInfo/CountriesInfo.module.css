@@ -1,0 +1,140 @@
+.Body {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 3.5rem;
+}
+
+.Link {
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.26);
+  border: none;
+  padding: 0.5rem 2rem;
+}
+
+.Link:focus {
+  outline: none;
+}
+
+.Content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.Content img {
+  width: 50rem;
+  height: 30rem;
+  margin-right: 5rem;
+}
+
+@media (max-width: 1000px) {
+  .Content img {
+    width: 40rem;
+  }
+}
+@media (max-width: 470px) {
+  .Content img {
+    width: 20rem;
+    margin-top: -2rem;
+  }
+}
+
+.Content .Right {
+  flex: 0 0 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .Content .Right {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .Content .Right {
+    flex: 0 0 100%;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .Content .Right {
+    margin-top: -3rem;
+  }
+}
+.Content .Right .Left {
+  flex: 0 0 50%;
+}
+@media (max-width: 900px) {
+  .Content .Right .Left {
+    flex: 0 0 80%;
+  }
+}
+
+.Content .Right .Left h1 {
+  margin-bottom: 3rem;
+}
+
+.Content .Right .Left p {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.Content .Right .Right {
+  flex: 0 0 50%;
+  height: 7rem;
+  padding-top: 6rem;
+}
+@media (max-width: 900px) {
+  .Content .Right .Right {
+    padding-top: none;
+    margin-top: -2rem;
+    flex: 0 0 40%;
+  }
+}
+@media (max-width: 600px) {
+  .Content .Right .Right {
+    padding-top: none;
+    flex: 0 0 80%;
+  }
+}
+
+.Content .Right .Right p:not(:last-child) {
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+}
+
+.Content .Right .Right p {
+  font-size: 1.5rem;
+}
+
+.Content .Right .Bottom {
+  flex: 0 0 100%;
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .Content .Right .Bottom{
+    margin-top: 10rem;
+  }
+}
+
+.Content .Right .Bottom p {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.Content .Right .Bottom button {
+  margin-right: 1rem;
+  border: none;
+  padding: 0.5rem 0.9rem;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.233);
+}
+.Content .Right .Bottom button:focus {
+  outline: none;
+}

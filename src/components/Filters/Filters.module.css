@@ -1,0 +1,53 @@
+label {
+    position: absolute;
+    left: 5rem;
+}
+
+@media (max-width: 550px) {
+    label {
+        top: 1.5rem;
+
+    }
+}
+
+.Filters {
+    display: flex;
+    align-items: center;
+    padding: 1rem 3.5rem;
+    width: 100%;
+    margin: 2.5rem 0;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.Search {
+    flex: 0 0 30%;
+    margin-right: auto;
+    border: none;
+    padding: 1rem 6rem;
+    box-shadow: 0 0 .2rem .2rem rgba(0, 0, 0, 0.26);
+}
+
+@media (max-width: 550px) {
+    .Search{
+        flex: 0 0 100%;
+
+    }
+}
+
+.Dropdown {
+    border: none;
+    padding: 1rem 1.5rem;
+}
+
+@media (max-width: 550px) {
+    .Dropdown {
+        flex: 0 0 50%;
+        margin-top: 3rem;
+    }
+}
+
+.Dropdown:focus {
+    border: none;
+}
+

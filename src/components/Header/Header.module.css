@@ -1,0 +1,22 @@
+.Header {
+    width: 100%;
+    display: flex;
+    background-color: inherit;
+    box-shadow: 0 .2rem 2px rgba(0, 0, 0, 0.205);
+    padding: 2rem 3.5rem;
+    flex-wrap: wrap;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.Header h2 {
+    margin-right: auto;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+@media (max-width: 470px) {
+    .Header h2 {
+        font-size: 1.5rem;
+    }
+  }
